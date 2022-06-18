@@ -1,0 +1,8 @@
+/build
+**/*.md
+**/*.svg
+**/*.ejs
+**/*.html
+dist
+package.json
+yarn-lock.yaml

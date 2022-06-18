@@ -1,0 +1,122 @@
+@import '@theme/index.less';
+
+html,
+body,
+#root {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.global-box-shadow-lg {
+  box-shadow: 0 2px 20px 0 rgba(167, 178, 204, 0.24);
+}
+
+
+.global-box-shadow-sm {
+  box-shadow: 0 2px 12px 0 rgba(167, 178, 204, 0.1);
+}
+
+
+.global-describe {
+  font-size: 12;
+  line-height: 20;
+}
+
+
+.global-content {
+  font-size: 14px !important;
+  line-height: 22px;
+}
+
+
+.global-primary-title {
+  font-size: 16px !important;
+  line-height: 24px;
+}
+
+
+.global-large-title {
+  font-size: 20px !important;
+  line-height: 24px;
+}
+
+
+.global-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.global-flex-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.global-width-120 {
+  width: 120px !important;
+}
+
+.global-width-180 {
+  width: 180px !important;
+}
+
+.global-width-240 {
+  width: 240px !important;
+}
+
+.global-width-360 {
+  width: 360px !important;
+}
+
+.global-width-420 {
+  width: 420px !important;
+}
+
+.global-disabled-text {
+  color: @disabled-text-color;
+}
+
+.global-cursor-pointer {
+  cursor: pointer;
+}
+
+
+.global-link {
+  color: @link-color;
+  cursor: pointer;
+}
+
+.global-scroll-slider {
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #fff;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    width: 4px;
+    border-radius: 19px;
+    background-color: rgba(210, 213, 217, 1);
+  }
+}
+
+.global-fluid-container {
+  background-color: @white;
+  border-radius: 4px;
+}
+
+.global-container {
+  .global-fluid-container;
+  position: relative;
+  padding: 18px 24px;
+}
